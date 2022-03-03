@@ -1,0 +1,49 @@
+body { padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#D7D7D7 ; -webkit-text-size-adjust:none; }
+a { color:#66c7ff; text-decoration:none }
+p { padding:0 !important; margin:0 !important } 
+img { -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+
+.mcnPreviewText { display: none !important; }
+table { border: 1px solid black;}
+
+
+
+
+@media only screen and (max-device-width: 500px), only screen and (max-width: 500px) {
+    .mobile-shell { width: 100% !important; min-width: 100% !important; }
+    .m-center {
+        text-align: center!important;
+        width: 100%!important;
+    }
+    
+    .column-empty,.column-empty2, .column {
+        display: block!important;
+        width: 100%!important;
+        float: left!important;
+    }
+
+    .column-empty2 {
+        padding: 5px !important;
+    }
+
+    .column-empty2 {
+        padding: 10px !important;
+    }
+
+    
+    .fluid img {
+        width: 100% !important;
+        min-width: 100% !important;
+        height: auto !important;
+    }
+
+    .p20{
+        padding: 20px !important;
+    }
+
+    .container { padding: 10px 10px !important }
+    .td { width: 100% !important; min-width: 100% !important; }
+}
+
+
+
